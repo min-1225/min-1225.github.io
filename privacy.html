@@ -18,12 +18,32 @@
 <body>
 <main>
 <h1>빙글 개인정보처리방침</h1>
-<p class="meta">시행일: 2026년 10월 2일 · 운영자: Minstrack · 문의: 이상민 · chimde@naver.com</p>
+<p class="meta">시행일: 2026년 10월 3일 · 운영자: Minstrack · 문의: 이상민 · chimde@naver.com</p>
 
 <h2>1. 앱이 직접 저장하는 정보</h2>
 <p>빙글은 회원가입이나 로그인이 없고, 운영자의 서버로 개인정보를 보내지 않아요. 최고 점수, 도달한 단계, 연료, 보유한 인공위성, 소리 설정은 이용자의 기기 안에만 저장되며, 앱을 삭제하면 함께 지워져요.</p>
 
-<h2>2. 광고를 위해 수집되는 정보 (제3자 제공)</h2>
+<h2>2. 주간 랭킹 정보</h2>
+<p>주간 세계 랭킹을 운영하기 위해 Google Firebase(Cloud Firestore, 서울 리전)에 다음 정보를 저장해요.</p>
+<ul>
+  <li>앱이 자동으로 만드는 익명 사용자 ID (이름, 이메일, 전화번호와 연결되지 않아요)</li>
+  <li>앱이 정해진 단어로 만들어 주는 랭킹 이름 (예: 용감한 펭귄27)</li>
+  <li>그 주의 최고 점수, 도달한 단계, 사용한 인공위성, 그 판의 플레이 시간, 기록 시각, 순위</li>
+</ul>
+<p>이번 주 기록 중 랭킹 이름, 점수, 단계, 인공위성은 모든 이용자에게 공개돼요. 주가 바뀌면(매주 월요일 0시) 지난 주 기록은 본인만 볼 수 있어요. 이 정보는 이용자가 앱의 '주간 랭킹 &gt; 지난 기록 &gt; 내 랭킹 기록 모두 지우기'로 지우거나 아래 문의처로 삭제를 요청할 때까지 보관해요.</p>
+
+<h2>3. 로그인 정보 (선택)</h2>
+<p>Google Play 게임즈나 Google 계정으로 로그인하면, 계정을 알아보기 위해 Google Firebase Authentication에 다음 정보가 저장돼요.</p>
+<ul>
+  <li>Google Play 게임즈: 플레이어 ID와 게이머 이름</li>
+  <li>Google 계정: Google 계정 식별자, 이메일 주소, 이름, 프로필 사진 주소</li>
+</ul>
+<p>게임 데이터베이스에는 인사에 쓸 이름, 연결된 로그인 종류, 랭킹 이름, 마지막 접속 시각만 저장하며, 이 정보는 본인만 볼 수 있어요. 비밀번호나 인증 토큰은 저장하지 않아요. 로그인 이름은 공개 랭킹에 표시되지 않아요.</p>
+
+<h2 id="delete">4. 계정과 데이터 삭제</h2>
+<p>앱의 '계정' 화면에서 '계정과 기록 삭제'를 누르면 로그인 계정, 랭킹 기록, 프로필이 바로 삭제돼요. 앱을 쓸 수 없는 경우에는 아래 문의 이메일로 '빙글 계정 삭제'라고 보내 주시면, 본인 확인 후 30일 안에 삭제하고 결과를 알려 드려요.</p>
+
+<h2>5. 광고를 위해 수집되는 정보 (제3자 제공)</h2>
 <p>빙글은 무료 앱이며 Google AdMob 광고를 보여 줘요. 광고를 보여 주고 성과를 측정하고 부정 사용을 막기 위해, Google Mobile Ads SDK가 다음 정보를 수집해 Google에 전송해요.</p>
 <ul>
   <li>광고 식별자(Android 광고 ID, 앱 세트 ID, iOS IDFA는 이용자가 추적을 허용한 경우에만)</li>
@@ -33,28 +53,34 @@
 </ul>
 <p>이 정보는 전송 중 암호화되며, Google의 처리 방식은 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google 파트너 사이트 데이터 사용 정책</a>을 따라요. 보유 기간은 Google의 정책에 따르며, 운영자는 이 정보를 따로 보관하지 않아요.</p>
 
-<h2>3. 이용자의 선택</h2>
+<h2>6. 이용자의 선택</h2>
 <ul>
   <li>유럽경제지역·영국 등 동의가 필요한 지역에서는 앱을 처음 실행할 때 광고 동의 창이 뜨고, 시작 화면의 '광고 개인정보 설정'에서 언제든 바꿀 수 있어요.</li>
   <li>iPhone에서는 '추적 허용' 여부를 직접 선택할 수 있고, 설정 &gt; 개인정보 보호 및 보안 &gt; 추적에서 바꿀 수 있어요.</li>
   <li>Android에서는 설정 &gt; 개인정보 보호 &gt; 광고에서 광고 ID를 재설정하거나 삭제할 수 있어요.</li>
 </ul>
 
-<h2>4. 아동의 개인정보</h2>
+<h2>7. 아동의 개인정보</h2>
 <p>빙글은 만 13세 미만 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않아요.</p>
 
-<h2>5. 개인정보 보호책임자 및 문의</h2>
+<h2>8. 개인정보 보호책임자 및 문의</h2>
 <p>이상민 · chimde@naver.com<br>개인정보 관련 문의, 열람·정정·삭제 요청은 위 연락처로 보내 주세요. 개인정보 침해에 대한 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118)에서도 받을 수 있어요.</p>
 
-<h2>6. 변경 안내</h2>
+<h2>9. 변경 안내</h2>
 <p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알려 드려요.</p>
 
 <hr>
 
 <h1>Bingle Privacy Policy</h1>
-<p class="meta">Effective: October 2, 2026 · Operator: Minstrack · Contact: Sangmin Lee · chimde@naver.com</p>
+<p class="meta">Effective: October 3, 2026 · Operator: Minstrack · Contact: Sangmin Lee · chimde@naver.com</p>
 <h2>Data stored by the app</h2>
 <p>Bingle has no accounts and sends no personal data to the operator. Best score, stage reached, fuel, owned satellites, and sound settings are stored only on your device and are removed when you delete the app.</p>
+<h2>Weekly ranking</h2>
+<p>To run the weekly world ranking, the app stores an automatically created anonymous user ID, a generated ranking name (such as "Brave Penguin 27"), and that week's best score, stage, satellite, run time, timestamp, and rank in Google Firebase (Cloud Firestore, Seoul region). Name, score, stage, and satellite of the current week are visible to all players; after the weekly reset (Monday 00:00 KST) past records are visible only to you. You can delete them in the app (Weekly ranking &gt; Past records &gt; Delete all my ranking records) or by contacting us.</p>
+<h2>Sign-in (optional)</h2>
+<p>If you sign in with Google Play Games or a Google account, Google Firebase Authentication stores what is needed to recognise the account: your Play Games player ID and gamer name, or your Google account identifier, e-mail address, name, and profile photo URL. The game database only keeps a display name for greetings, which sign-in methods are linked, your ranking name, and your last visit time, visible only to you. No passwords or tokens are stored, and sign-in names are never shown on the public ranking.</p>
+<h2>Deleting your account</h2>
+<p>Tap "계정과 기록 삭제" on the Account screen to delete your sign-in account, ranking records, and profile immediately. If you cannot use the app, e-mail us with the subject "Bingle account deletion" and we will delete it within 30 days after verifying ownership.</p>
 <h2>Advertising (Google AdMob)</h2>
 <p>The Google Mobile Ads SDK collects advertising identifiers (Android advertising ID, app set ID, and iOS IDFA only if you allow tracking), IP address and approximate location derived from it, app interactions such as launches, taps, and ad views, and diagnostic data such as crash logs. Google uses this data for advertising, measurement, and fraud prevention under its <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">partner sites policy</a>. Data is encrypted in transit.</p>
 <h2>Your choices</h2>
